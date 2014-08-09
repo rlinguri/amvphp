@@ -24,8 +24,11 @@ parameter 'action' with the value 'logn'. The bootstrapper will automatically lo
 the file and construct the 'LognActionCtrl' class.
 
 Examples:
+
+```
 POST <input type="hidden" name="action" value="logn">
 GET: <a href="index.php?action=logn">Log In</a>
+```
 
 In your Action Controller, you could decide what to do based on whether the request
 comes as GET or POST. Just an idea.
