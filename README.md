@@ -1,5 +1,5 @@
 # Action-Model-View, an MVC Framework for PHP #
-=============================================
+==========================================================================
 | Author:  | Roderic Linguri <rod@linguri.com>                           |
 |----------|-------------------------------------------------------------|
 | Date:    | Fri Aug 8 18:41:36                                          |
@@ -40,28 +40,28 @@ more extensible, but this is where I start every PHP web project.
 
 # DIRECTORY STRUCTURE #
 
-| Directory   | Description |
-------------- | ------------|
-|app          | Controller classes specific to the application |
-| - action    | HTTP requests are routed through action classes |
-| - model     | Database tables are controlled through ModelCtrl classes |
-| - view      | ViewCtrl classes assemble and display your view elements |
-| lib         | The Framework |
-| - base      | Abstract classes that can be extended in app classes |
-| - dom       | Pre-constructed DOM objects |
+| Directory   | Description                                                         |
+------------- | --------------------------------------------------------------------|
+|app          | Controller classes specific to the application                      |
+| - action    | HTTP requests are routed through action classes                     |
+| - model     | Database tables are controlled through ModelCtrl classes            |
+| - view      | ViewCtrl classes assemble and display your view elements            |
+| lib         | The Framework                                                       |
+| - base      | Abstract classes that can be extended in app classes                |
+| - dom       | Pre-constructed DOM objects                                         |
 | - ctrl      | Adaptable controllers for layouts and complex repetitive operations |
-| usr         | User Directory |
-| - conf      | All user configuration definitions |
-| - includes  | A place to store textual files that you want to include |
-| - plugin    | Plugins can be consolidated into this directory |
-| var         | A place for files that may change often |
-| - files     | Uploads, etc |
-| - logs      | Log files |
-| - temp      | Temporary storage area |
-| - sqlite	  | SQLite database files |
-| www	      | The public directory |
-| - index.php | The main application bootstrapper |
-| - css       | Cascading style sheets |
-| - fonts     | Fonts |
-| - img       | Images |
-| - js        | Javascripts |
+| usr         | User Directory                                                      |
+| - conf      | All user configuration definitions                                  |
+| - includes  | A place to store textual files that you want to include             |
+| - plugin    | Plugins can be consolidated into this directory                     |
+| var         | A place for files that may change often                             |
+| - files     | Uploads, etc                                                        |
+| - logs      | Log files                                                           |
+| - temp      | Temporary storage area                                              |
+| - sqlite	  | SQLite database files                                               |
+| www	      | The public directory                                                |
+| - index.php | The main application bootstrapper                                   |
+| - css       | Cascading style sheets                                              |
+| - fonts     | Fonts                                                               |
+| - img       | Images                                                              |
+| - js        | Javascripts                                                         |
