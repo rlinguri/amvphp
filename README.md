@@ -1,8 +1,8 @@
-# Action-Model-View, an MVC Framework for PHP                           #
-# ===================================================================== #
-# Author:  Roderic Linguri <rod@linguri.com>                            #
-# Date:    Fri Aug 8 18:41:36                                           #
-# License: Use, distribute, modify, but please keep my headers intact.  #
+# Action-Model-View, an MVC Framework for PHP #
+=============================================
+Author:  Roderic Linguri <rod@linguri.com>
+Date:    Fri Aug 8 18:41:36
+License: Use, distribute, modify, but please keep my headers intact.
 
 # INTRODUCTION #
 
