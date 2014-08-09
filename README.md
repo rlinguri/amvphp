@@ -36,7 +36,9 @@ more extensible, but this is where I start every PHP web project.
 
 # DIRECTORY STRUCTURE #
 
-app           | Controller classes specific to the application |
+| Directory   | Description |
+------------- | ------------|
+|app          | Controller classes specific to the application |
 | - action    | HTTP requests are routed through action classes |
 | - model     | Database tables are controlled through ModelCtrl classes |
 | - view      | ViewCtrl classes assemble and display your view elements |
