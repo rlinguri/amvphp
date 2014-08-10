@@ -10,7 +10,7 @@ class HomeCtrl extends AMVActionCtrl
 
 	public function __construct() {
 		parent::__construct();
-		$model = new HomeModel;
+		$model = new HomeViewModel;
 		$view = new HomeViewCtrl($model->getPageData());
 		$view->page->printXml();
 	}
@@ -59,7 +59,7 @@ class HomeViewCtrl extends AMVViewCtrl
 }
 
 /* Model */
-class HomeModel {
+class HomeViewModel {
 	
 	private $pageData;
 
