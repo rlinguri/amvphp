@@ -53,6 +53,21 @@ class AMVModel extends AMVObject
 		parent::__construct();
 	}
 
+	/**
+	* @method: setPropertiesWithAssoc
+	* @descr:  sets Properties from an associative array
+	* @param:  mixed (assoc)
+	* @return: void
+	*/
+	public function setPropertiesWithAssoc($arg) {
+	
+		foreach ($arg as $key=>$val) {
+			$this->$key = $arg[$val];
+		}
+
+	} // ./method setPropertiesWithAssoc()
+
+	
 }
 
 /* @TODO AMVModelView - autoconstruct an HTML table to display database records */
