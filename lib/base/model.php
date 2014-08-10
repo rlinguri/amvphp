@@ -9,7 +9,7 @@ class AMVModelCtrl extends AMVObject
 {
 
 	/* each model controller stores its own connection */
-	private $cxn;
+	protected $cxn;
 
 	/* the model that this controller controls */
 	public $model;
